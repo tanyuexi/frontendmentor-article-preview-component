@@ -1,0 +1,25 @@
+// - Very Dark Grayish Blue: hsl(217, 19%, 35%)
+// - Desaturated Dark Blue: hsl(214, 17%, 51%)
+// - Grayish Blue: hsl(212, 23%, 69%)
+// - Light Grayish Blue: hsl(210, 46%, 95%)
+
+$very-dark-grayish-blue: hsl(217, 19%, 35%);
+$desaturated-dark-blue: hsl(214, 17%, 51%);
+$grayish-blue: hsl(212, 23%, 69%);
+$light-grayish-blue: hsl(210, 46%, 95%);
+
+
+// $colors: (
+//   'very-dark-magenta': $very-dark-magenta,
+//   'white': $white
+// );
+//
+// @each $key, $value in $colors {
+//   .bg-#{$key} {
+//     background-color: $value;
+//   }
+//
+//   .#{$key} {
+//     color: $value;
+//   }
+// }

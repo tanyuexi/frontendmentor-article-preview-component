@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 6rem 2rem;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.page-wrapper {
+  max-width: 700px;
+  margin: auto;
+}
+
+html {
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+body {
+  background: #ecf2f8;
+}
+
+.page-wrapper {
+  background: white;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.cover-img {
+  flex: 100%;
+  background: url("../images/drawers.jpg") no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.content {
+  flex: 100%;
+}
+
+.content-text {
+  padding: 3rem 2.5rem 1.5rem;
+}
+.content-text h1 {
+  color: #48556a;
+}
+.content-text p {
+  color: #6d7f97;
+  margin-top: 1rem;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 65px;
+  position: relative;
+}
+
+.author-img {
+  background: url("../images/avatar-michelle.jpg") #ecf2f8 no-repeat center;
+  background-size: cover;
+  height: 3rem;
+  width: 3rem;
+  overflow: hidden;
+  border-radius: 50%;
+  flex: 0 0 3rem;
+  margin-left: 2.5rem;
+}
+
+.text {
+  margin: 0 1rem;
+  flex-grow: 1;
+}
+.text .author-name {
+  color: #48556a;
+  font-weight: 700;
+}
+.text .time {
+  color: #9eafc2;
+}
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+.share-icon {
+  background: url("../images/icon-share.svg") #ecf2f8 no-repeat center;
+  height: 2.5rem;
+  width: 2.5rem;
+  flex: 0 0 2.5rem;
+  border-radius: 50%;
+  margin-right: 2.5rem;
+}
+
+.share-active-box {
+  background: #48556a;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.share-text {
+  flex-grow: 0;
+  text-transform: uppercase;
+  color: #9eafc2;
+  margin-left: 2.5rem;
+  letter-spacing: 0.5rem;
+}
+
+.icon-group {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.facebook-icon {
+  background: url("../images/icon-facebook.svg") #ecf2f8 no-repeat center;
+  background-size: cover;
+  height: 1.5rem;
+  width: 1.5rem;
+  overflow: hidden;
+  background-color: #48556a;
+  margin-left: 1.2rem;
+}
+
+.twitter-icon {
+  background: url("../images/icon-twitter.svg") #ecf2f8 no-repeat center;
+  background-size: cover;
+  height: 1.5rem;
+  width: 1.5rem;
+  overflow: hidden;
+  background-color: #48556a;
+  margin-left: 1.2rem;
+}
+
+.pinterest-icon {
+  background: url("../images/icon-pinterest.svg") #ecf2f8 no-repeat center;
+  background-size: cover;
+  height: 1.5rem;
+  width: 1.5rem;
+  overflow: hidden;
+  background-color: #48556a;
+  margin-left: 1.2rem;
+}
+
+.share-icon-dark {
+  background: url("../images/icon-share-active.svg") #6d7f97 no-repeat center;
+}
+
+.pointer svg {
+  fill: #48556a;
+}
+
+.share-active-mobile {
+  visibility: hidden;
+}
+
+.share-active-desktop {
+  height: 65px;
+  position: fixed;
+  text-align: center;
+}
+
+.share-active-box-desktop {
+  background: #48556a;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px 0 #9eafc2;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2.5rem 1.5rem 0;
+}
+
+.info:hover .share-active-mobile {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+@media (min-width: 900px) {
+  .page-wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .cover-img {
+    flex: 40%;
+    height: auto;
+  }
+
+  .content {
+    flex: 60%;
+    padding-bottom: 1rem;
+  }
+
+  .info:hover .share-active-mobile {
+    visibility: hidden;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

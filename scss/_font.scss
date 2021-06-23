@@ -1,0 +1,40 @@
+$family-manrope: 'Manrope', sans-serif;
+
+$weight-bold: 700;
+$weight-regular: 500;
+// $weight-light: 400;
+
+$size-rem: 13px;
+$size-h1: 1.2rem;
+$size-h1-desktop: 1.5rem;
+
+// $font-families: (
+//   'spartan': $family-spartan
+// );
+//
+// $font-weights: (
+//   'bold': $weight-bold,
+//   'regular': $weight-regular,
+//   'light': $weight-light
+// );
+
+
+// @each $key, $value in $font-weights {
+//   .font-weight-#{$key} {
+//     font-weight: $value;
+//   }
+// }
+
+
+html {
+  font-family: $family-manrope;
+  font-size: $size-rem;
+  font-weight: $weight-regular;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: $family-manrope;
+  font-size: $size-h1;
+  font-weight: $weight-bold;
+}
